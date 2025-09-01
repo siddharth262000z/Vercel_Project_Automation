@@ -5,7 +5,7 @@ export class Community{
    public disCommunityHeader:Locator 
     constructor(private page:Page){
       this.communityBlogTitles=this.page.locator(`//div[@id="root"]//following::div[contains(@class,"hmdnzv")]`)
-      this.disCommunityHeader=this.page.locator(`//sample`)
+      this.disCommunityHeader=this.page.locator(`  //sample`)
       
     }
 }
